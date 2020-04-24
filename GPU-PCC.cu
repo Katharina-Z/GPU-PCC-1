@@ -154,11 +154,11 @@ int main(int argc, char *argv[])
     memset(bold1, 0, sizeof(float)*m*n);
     float * bold3 = new float [cor_size];
     memset(bold3, 0, sizeof(float) *cor_size);	
-    string name = "/home/taban/Correlation_codes/code_wang/100000_500/";//path to dataset
+    string name = "/home/kz294/Documents/";//path to dataset
     stringstream sstm;
     ifstream myReadFile;
     sstm.str("");
-    sstm << name<<"data1.txt";//name of dataset
+    sstm << name<<"test1.txt";//name of dataset
     string ad = sstm.str();
     myReadFile.open(ad.c_str());
     int i,j;
